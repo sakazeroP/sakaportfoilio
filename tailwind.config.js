@@ -4,6 +4,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      backgroundImage: theme => ({
+        'banner': "url('../images/mywallpaper.png')"
+       }),
       colors: {
         'light-blue': colors.lightBlue,
         cyan: colors.cyan,
@@ -12,6 +15,9 @@ module.exports = {
           DEFAULT: '#FCD34D',
           dark: '#FBBF24',
         }
+      },
+      fontFamily:{
+        'Poppins': ['"Poppins"', 'sans-serif']
       },
     },
   },
