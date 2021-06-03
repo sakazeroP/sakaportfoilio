@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: theme => ({
-        'banner': "url('../images/mywallpaper.png')"
+        'banner': "url('../images/mywallpaper.png')",
+        'banner-work': "url('../images/work_wall.png')",
        }),
       colors: {
         'light-blue': colors.lightBlue,
