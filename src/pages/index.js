@@ -23,7 +23,7 @@ const IndexPage = () => {
             </div>
           </div>            
         </div>
-        <div className="p-20 bg-cover bg-no-repeat bg-center">
+        <div className="py-10 bg-cover bg-no-repeat bg-center">
           <div className="container mx-auto md:w-9/12">
             <h3 className="text-4xl font-semibold mb-6">My <span className="text-yellow-dark">Skills</span></h3>
             <div className="grid grid-cols-12">
